@@ -9,6 +9,7 @@ def find_even_values(src)
       if src[index].even?
         puts src[index]
       index += 1 
+    end
     end 
   count += 1
 end
